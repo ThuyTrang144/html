@@ -1,0 +1,63 @@
+.header {
+	position: relative;
+}
+.header .logo {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+  color:blue;
+  text-decoration: underline;
+}
+.btn {
+	color: black; 
+	text-decoration: none;
+	float: right;
+}
+.link {
+	float: right;
+}
+.link a {
+  display:inline-block;
+  margin-left:30px;
+  color:#444;font-family:Tahoma;
+  font-size:14px;
+  text-decoration:none;
+}
+.link a:hover{
+  color:blue;
+  text-decoration: underline;
+}
+.item {
+	padding-top:70px;
+}
+td {
+	border: 1px solid gray;
+	padding: 20px;
+}
+.item1 {
+	float: right;
+}
+.item1 td {
+	border: 0px;
+	text-align: right;
+	padding: 0;
+}
+.sale {
+	border: 0;
+	text-align: left;
+	color: red;
+	font-size:20px;
+}
+.cost1 {
+	color: gray;
+}
+.tax {
+	color: black;
+	font-size: 30px;
+}
