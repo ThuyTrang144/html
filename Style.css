@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-logo {
+    padding: 1.5em;
+    text-align: center;    
+}
+.nav {
+    background: #333333;
+    height: 69px;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.nav-list {
+    float: left;
+    background-color:  #333333;
+}
+.nav-list ul {
+    background-color: #333333;
+    list-style-type: none;
+    text-align: center;
+}
+.nav-list li{
+    display:inline-block;
+    padding: 14px 18px;
+    line-height: 40px;
+    font-size: 18px; 
+    border-right: 1px solid #040001;
+    font-family: "Merriweather", serif;
+    position: relative;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.nav-list li:hover {
+    background-color: #040404;
+    color: white;
+}
+.sub-menu {
+    position: absolute;
+    display: none;
+    margin-right: 20px;
+}
+.sub-menu li{
+    width: 180px;
+    margin-left: 0;
+}
+.item {
+    background-color: #040404;
+    font-family: sans-serif;
+    border-bottom: 1px solid #111111;
+    color: white;
+}
+.item:hover {
+    color: red;
+}
+.nav-list li:hover .sub-menu {
+    display:list-item;
+}
+.nav-img {
+    float: right;
+}
+.nav-img2 {
+    background: url('https://act.friendssfpl.org/image/volunteer.png') no-repeat;
+    height: 90px;
+    width: 148px; 
+    margin-top: -100px;
+    left: 400px;
+    position: relative;
+}
+.nav-img1 {
+    background: url('https://act.friendssfpl.org/image/donate.png') no-repeat;
+    height: 90px;
+    width: 148px; 
+    top: -10px;
+    left: 220px;
+    position: relative;
+}
+.img-link {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    color: white;
+    left: 50px;
+    top: 30px;
+    position: absolute;
+    font-weight: bold;
+    text-decoration: none;
+}
